@@ -28,3 +28,18 @@ The output directory contains:
 Review each group for false positives before merging records. Identical attributes do not prove that two products are interchangeable. This repository contains no source catalog or interview materials.
 
 The script stops if either output file already exists, so it does not silently replace earlier results. Choose a new output directory or move the previous files before rerunning.
+
+## Entrega original (resumo sanitizado)
+
+A entrega da época incluiu análise e código Python para identificar duplicidades em um catálogo. Este repositório demonstra uma regra conservadora de correspondência e revisão de candidatos com entrada sintética; não contém catálogo nem resultados originais.
+
+## Exemplo sintético
+
+O arquivo `examples/catalog_input.csv` contém seis registros inventados. O script gerou os arquivos em `examples/generated/`:
+
+| Grupo | ID recomendado | Pedidos agregados no exemplo |
+|---|---:|---:|
+| Iogurte | 1001 | 210 |
+| Leite | 2002 | 43 |
+
+Os dois grupos resultam em quatro registros no catálogo proposto. A linha sem nome permanece separada e fora da correspondência. Esses valores demonstram o comportamento do script e não são resultados do case original.

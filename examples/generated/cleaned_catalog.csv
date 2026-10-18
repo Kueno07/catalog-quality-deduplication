@@ -1,0 +1,5 @@
+﻿product_id,product_name,buy_unit,package,brand,parent_category_id,category_id,orders
+3001,Loose tea,each,box,Leaf Co,20,201,3
+3002,,each,box,Leaf Co,20,201,2
+1001,Greek yogurt,each,500 g,Farm A,10,101,210
+2002,whole milk,liter,1 liter,farm b,10,102,43

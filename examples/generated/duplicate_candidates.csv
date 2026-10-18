@@ -1,0 +1,5 @@
+﻿product_id,product_name,buy_unit,package,brand,parent_category_id,category_id,orders,duplicate_group_id,recommended_product_id
+1001,Greek yogurt,each,500 g,Farm A,10,101,120,1,1001
+1002,GREEK  YOGURT,each,500 G,FARM A,10,101,90,1,1001
+2002,whole milk,liter,1 liter,farm b,10,102,25,2,2002
+2001,Whole milk,liter,1 liter,Farm B,10,102,18,2,2002
